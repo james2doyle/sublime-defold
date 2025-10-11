@@ -3,19 +3,12 @@ Sublime Defold
 
 Sublime Defold is a powerful Sublime Text plugin that helps you develop Defold games with Sublime Text.
 
-### Install
-
-You must have [astrochili/defold-annotations](https://github.com/astrochili/defold-annotations) setup in your Defold project if you want the types in the snippets to work correctly.
-
-```sh
-# change to the directory found with "Preference: Browse Packages", then clone
-git clone https://github.com/james2doyle/sublime-defold.git Defold
-```
-
 ### Features
 
 **Hot Reload**: Reload on save or you can run the "Defold: Reload" command
 **Snippets and Completions**: Helpful code completion for common commands and patterns
+
+You must have [astrochili/defold-annotations](https://github.com/astrochili/defold-annotations) setup in your Defold project if you want the types in the snippets to work correctly.
 
 ### Installation
 
@@ -26,10 +19,15 @@ git clone https://github.com/james2doyle/sublime-defold.git Defold
 1. Type Package Control: Install Package and press Enter.
 1. Search for Defold and press Enter to install.
 
-#### Manual Installation
+#### Via Git
 
 1. Navigate to your Sublime Text Packages directory. You can find this by going to Preferences > Browse Packages... in Sublime Text.
 1. Run `git clone https://github.com/james2doyle/sublime-defold Defold` in that folder
+
+```sh
+# change to the directory found with "Preference: Browse Packages", then clone
+git clone https://github.com/james2doyle/sublime-defold.git Defold
+```
 
 #### Project Configuration
 
