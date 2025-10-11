@@ -33,7 +33,7 @@ git clone https://github.com/james2doyle/sublime-defold.git Defold
 
 #### Project Configuration
 
-You can configure the `defold_hot_reload` on the project level.
+You can configure the `defold_hot_reload` on the project level to enable reloading on save.
 
 In your `.sublime-project` file:
 
