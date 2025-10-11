@@ -24,7 +24,7 @@ git clone https://github.com/james2doyle/sublime-defold.git Defold
 1. Open Sublime Text.
 1. Go to Tools > Command Palette... (or press Ctrl+Shift+P / Cmd+Shift+P).
 1. Type Package Control: Install Package and press Enter.
-1. Search for Sublime Gemini and press Enter to install.
+1. Search for Defold and press Enter to install.
 
 #### Manual Installation
 
@@ -56,7 +56,7 @@ TODO
 #### Command Palette
 
 1. Open Tools > Command Palette... (Ctrl+Shift+P / Cmd+Shift+P).
-1. Type Gemini to see available commands:
+1. Type Defold to see available commands:
   - Defold: Reload: Reload the running build.
 
 #### Key Bindings
