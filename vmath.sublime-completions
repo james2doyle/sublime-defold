@@ -1,0 +1,161 @@
+{
+	"scope": "source.lua, source.rbxlua, source.luau, source.teal",
+	"completions": [
+		{
+			"trigger": "clamp",
+			"contents": "vmath.clamp(${1:value}, ${2:min}, ${3:max})$0"
+		},
+		{
+			"trigger": "conj",
+			"contents": "vmath.conj(${1:q1})$0"
+		},
+		{
+			"trigger": "cross",
+			"contents": "vmath.cross(${1:v1}, ${2:v2})$0"
+		},
+		{
+			"trigger": "dot",
+			"contents": "vmath.dot(${1:v1}, ${2:v2})$0"
+		},
+		{
+			"trigger": "euler_to_quat",
+			"contents": "vmath.euler_to_quat(${1:x}, ${2:y}, ${3:z})$0"
+		},
+		{
+			"trigger": "inv",
+			"contents": "vmath.inv(${1:m1})$0"
+		},
+		{
+			"trigger": "length_sqr",
+			"contents": "vmath.length_sqr(${1:v})$0"
+		},
+		{
+			"trigger": "lerp",
+			"contents": "vmath.lerp(${1:t}, ${2:n1}, ${3:n2})$0"
+		},
+		{
+			"trigger": "m4",
+			"contents": "vmath.matrix4(${1:m1})$0"
+		},
+		{
+			"trigger": "m4_axis_angle",
+			"contents": "vmath.matrix4_axis_angle(${1:v}, ${2:angle})$0"
+		},
+		{
+			"trigger": "m4_compose",
+			"contents": "vmath.matrix4_compose(${1:translation}, ${2:rotation}, ${3:scale})$0"
+		},
+		{
+			"trigger": "m4_frustum",
+			"contents": "vmath.matrix4_frustum(${1:left}, ${2:right}, ${3:bottom}, ${4:top}, ${5:near}, ${6:far})$0"
+		},
+		{
+			"trigger": "m4_look_at",
+			"contents": "vmath.matrix4_look_at(${1:eye}, ${2:look_at}, ${3:up})$0"
+		},
+		{
+			"trigger": "m4_orthographic",
+			"contents": "vmath.matrix4_orthographic(${1:left}, ${2:right}, ${3:bottom}, ${4:top}, ${5:near}, ${6:far})$0"
+		},
+		{
+			"trigger": "m4_perspective",
+			"contents": "vmath.matrix4_perspective(${1:fov}, ${2:aspect}, ${3:near}, ${4:far})$0"
+		},
+		{
+			"trigger": "m4_quat",
+			"contents": "vmath.matrix4_quat(${1:q})$0"
+		},
+		{
+			"trigger": "m4_rotation_x",
+			"contents": "vmath.matrix4_rotation_x(${1:angle})$0"
+		},
+		{
+			"trigger": "m4_rotation_y",
+			"contents": "vmath.matrix4_rotation_y(${1:angle})$0"
+		},
+		{
+			"trigger": "m4_rotation_z",
+			"contents": "vmath.matrix4_rotation_z(${1:angle})$0"
+		},
+		{
+			"trigger": "m4_scale",
+			"contents": "vmath.matrix4_scale(${1:scale_x}, ${2:scale_y}, ${3:scale_z})$0"
+		},
+		{
+			"trigger": "m4_translation",
+			"contents": "vmath.matrix4_translation(${1:position})$0"
+		},
+		{
+			"trigger": "mul_per_elem",
+			"contents": "vmath.mul_per_elem(${1:v1}, ${2:v2})$0"
+		},
+		{
+			"trigger": "normalize",
+			"contents": "vmath.normalize(${1:v1})$0"
+		},
+		{
+			"trigger": "ortho_inv",
+			"contents": "vmath.ortho_inv(${1:m1})$0"
+		},
+		{
+			"trigger": "project",
+			"contents": "vmath.project(${1:v1}, ${2:v2})$0"
+		},
+		{
+			"trigger": "qt",
+			"contents": "vmath.quat(${1:x}, ${2:y}, ${3:z}, ${4:w})$0"
+		},
+		{
+			"trigger": "qt_axis_angle",
+			"contents": "vmath.quat_axis_angle(${1:v}, ${2:angle})$0"
+		},
+		{
+			"trigger": "qt_basis",
+			"contents": "vmath.quat_basis(${1:x}, ${2:y}, ${3:z})$0"
+		},
+		{
+			"trigger": "qt_from_to",
+			"contents": "vmath.quat_from_to(${1:v1}, ${2:v2})$0"
+		},
+		{
+			"trigger": "qt_m4",
+			"contents": "vmath.quat_matrix4(${1:matrix})$0"
+		},
+		{
+			"trigger": "qt_rotation_x",
+			"contents": "vmath.quat_rotation_x(${1:angle})$0"
+		},
+		{
+			"trigger": "qt_rotation_y",
+			"contents": "vmath.quat_rotation_y(${1:angle})$0"
+		},
+		{
+			"trigger": "qt_rotation_z",
+			"contents": "vmath.quat_rotation_z(${1:angle})$0"
+		},
+		{
+			"trigger": "qt_to_euler",
+			"contents": "vmath.quat_to_euler(${1:q})$0"
+		},
+		{
+			"trigger": "rotate",
+			"contents": "vmath.rotate(${1:q}, ${2:v1})$0"
+		},
+		{
+			"trigger": "slerp",
+			"contents": "vmath.slerp(${1:t}, ${2:v1}, ${3:v2})$0"
+		},
+		{
+			"trigger": "vec",
+			"contents": "vmath.vector(${1:t})$0"
+		},
+		{
+			"trigger": "vec3",
+			"contents": "vmath.vector3(${1:x}, ${2:y}, ${3:z})$0"
+		},
+		{
+			"trigger": "vec4",
+			"contents": "vmath.vector4(${1:x}, ${2:y}, ${3:z}, ${4:w})$0"
+		}
+	]
+}

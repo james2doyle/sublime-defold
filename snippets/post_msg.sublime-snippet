@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[msg.post(${1:receiver}, "${2:message_id}", ${3:message})$0]]></content>
+    <tabTrigger>post</tabTrigger>
+    <scope>source.lua, source.rbxlua, source.luau, source.teal</scope>
+    <description>Post a message to a receiving URL. The most common case is to send messages</description>
+</snippet>

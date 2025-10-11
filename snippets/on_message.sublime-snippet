@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+---@param self ${1:Target|userdata} reference to the script state to be used for storing data
+---@param message_id hash id of the received message
+---@param message table a table containing the message data
+---@param sender url address of the sender
+function on_message(self, message_id, message, sender)
+    ${2:-- my code}$0
+end
+]]></content>
+    <tabTrigger>on_message</tabTrigger>
+    <scope>source.lua, source.rbxlua, source.luau, source.teal</scope>
+    <description>Global on_message function</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+---@param self ${1:Target|userdata} reference to the script state to be used for storing data
+function on_reload(self)
+    ${2:-- my code}$0
+end
+]]></content>
+    <tabTrigger>on_reload</tabTrigger>
+    <scope>source.lua, source.rbxlua, source.luau, source.teal</scope>
+    <description>Global on_reload function</description>
+</snippet>

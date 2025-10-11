@@ -1,0 +1,105 @@
+{
+	"scope": "source.lua, source.rbxlua, source.luau, source.teal",
+	"completions": [
+		{
+			"trigger": "animate",
+			"contents": "go.animate(${1:url}, ${2:property}, ${3:playback}, ${4:to}, ${5:easing}, ${6:duration}, ${7:delay}, ${8:complete_function})$0"
+		},
+		{
+			"trigger": "cancel_animations",
+			"contents": "go.cancel_animations(${1:url}, ${2:property})$0"
+		},
+		{
+			"trigger": "delete",
+			"contents": "go.delete(${1:id}, ${2:recursive})$0"
+		},
+		{
+			"trigger": "exists",
+			"contents": "go.exists(${1:url})$0"
+		},
+		{
+			"trigger": "get",
+			"contents": "go.get(${1:url}, ${2:property}, ${3:options})$0"
+		},
+		{
+			"trigger": "get_id",
+			"contents": "go.get_id(${1:path})$0"
+		},
+		{
+			"trigger": "get_parent",
+			"contents": "go.get_parent(${1:id})$0"
+		},
+		{
+			"trigger": "get_position",
+			"contents": "go.get_position(${1:id})$0"
+		},
+		{
+			"trigger": "get_rotation",
+			"contents": "go.get_rotation(${1:id})$0"
+		},
+		{
+			"trigger": "get_scale",
+			"contents": "go.get_scale(${1:id})$0"
+		},
+		{
+			"trigger": "get_scale_uniform",
+			"contents": "go.get_scale_uniform(${1:id})$0"
+		},
+		{
+			"trigger": "get_world_position",
+			"contents": "go.get_world_position(${1:id})$0"
+		},
+		{
+			"trigger": "get_world_rotation",
+			"contents": "go.get_world_rotation(${1:id})$0"
+		},
+		{
+			"trigger": "get_world_scale",
+			"contents": "go.get_world_scale(${1:id})$0"
+		},
+		{
+			"trigger": "get_world_scale_uniform",
+			"contents": "go.get_world_scale_uniform(${1:id})$0"
+		},
+		{
+			"trigger": "get_world_transform",
+			"contents": "go.get_world_transform(${1:id})$0"
+		},
+		{
+			"trigger": "property",
+			"contents": "go.property(${1:name}, ${2:value})$0"
+		},
+		{
+			"trigger": "set",
+			"contents": "go.set(${1:url}, ${2:property}, ${3:value}, ${4:options})$0"
+		},
+		{
+			"trigger": "set_parent",
+			"contents": "go.set_parent(${1:id}, ${2:parent_id}, ${3:keep_world_transform})$0"
+		},
+		{
+			"trigger": "set_position",
+			"contents": "go.set_position(${1:position}, ${2:id})$0"
+		},
+		{
+			"trigger": "set_rotation",
+			"contents": "go.set_rotation(${1:rotation}, ${2:id})$0"
+		},
+		{
+			"trigger": "set_scale",
+			"contents": "go.set_scale(${1:scale}, ${2:id})$0"
+		},
+		{
+			"trigger": "set_scale_xy",
+			"contents": "go.set_scale_xy(${1:scale}, ${2:id})$0"
+		},
+		{
+			"trigger": "world_to_local_position",
+			"contents": "go.world_to_local_position(${1:position}, ${2:url})$0"
+		},
+		{
+			"trigger": "world_to_local_transform",
+			"contents": "go.world_to_local_transform(${1:transformation}, ${2:url})$0"
+		}
+	]
+}

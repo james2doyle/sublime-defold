@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+-- Put functions in this file to use them in several other scripts.
+-- To get access to the functions, you need to put:
+-- require "my_directory.my_file"
+-- in any script using the functions.
+
+local M = {}
+
+--- Fire the gun
+---@return
+function M.fire()
+    sound.play("#gunshot")
+end
+
+return M$0
+]]></content>
+    <tabTrigger>module</tabTrigger>
+    <scope>source.lua, source.rbxlua, source.luau, source.teal</scope>
+    <description>Lua module function</description>
+</snippet>

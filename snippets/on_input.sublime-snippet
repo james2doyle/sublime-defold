@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+---@param self ${1:Target|userdata} reference to the script state to be used for storing data
+---@param action_id hash id of the received input action, as mapped in the input_binding-file
+---@param action on_input.action a table containing the input data, see above for a description
+function on_input(self, action_id, action)
+    ${2:-- my code}$0
+end
+]]></content>
+    <tabTrigger>on_input</tabTrigger>
+    <scope>source.lua, source.rbxlua, source.luau, source.teal</scope>
+    <description>Global on_input function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[msg.post("#${1:my_component}", "enable")$0]]></content>
+    <tabTrigger>enable_component</tabTrigger>
+    <scope>source.lua, source.rbxlua, source.luau, source.teal</scope>
+    <description>Enable the component "my_component"</description>
+</snippet>

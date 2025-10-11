@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[msg.post(".", "release_input_focus")$0]]></content>
+    <tabTrigger>release_input_focus</tabTrigger>
+    <scope>source.lua, source.rbxlua, source.luau, source.teal</scope>
+    <description>How to make a game object stop receiving input</description>
+</snippet>

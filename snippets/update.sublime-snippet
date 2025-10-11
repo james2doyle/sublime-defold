@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+---@param self ${1:Target|userdata} reference to the script state to be used for storing data
+---@param dt number the time-step of the frame update
+function update(self, dt)
+    ${2:-- my code}$0
+end
+]]></content>
+    <tabTrigger>update</tabTrigger>
+    <scope>source.lua, source.rbxlua, source.luau, source.teal</scope>
+    <description>Global update function</description>
+</snippet>

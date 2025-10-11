@@ -1,0 +1,25 @@
+{
+	"scope": "source.lua, source.rbxlua, source.luau, source.teal",
+	"completions": [
+		{
+			"trigger": "f_create",
+			"contents": "factory.create(${1:url}, ${2:position}, ${3:rotation}, ${4:properties}, ${5:scale})$0"
+		},
+		{
+			"trigger": "f_get_status",
+			"contents": "factory.get_status(${1:url})$0"
+		},
+		{
+			"trigger": "f_load",
+			"contents": "factory.load(${1:url}, ${2:complete_function})$0"
+		},
+		{
+			"trigger": "f_set_prototype",
+			"contents": "factory.set_prototype(${1:url}, ${2:prototype})$0"
+		},
+		{
+			"trigger": "f_unload",
+			"contents": "factory.unload(${1:url})$0"
+		}
+	]
+}
